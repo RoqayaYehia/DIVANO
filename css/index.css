@@ -1,0 +1,261 @@
+*{ box-sizing: border-box;}
+body{height: 3000px;
+perspective: 700px;}
+.header{ width: 100%vw;
+    height: 100px;
+margin: auto;}
+.h2head{margin-left: 130px;
+    padding-top: 35px;
+    font-size: 40px;
+color:  #6e6e6e;
+cursor: pointer;}
+    ul{   margin-top: -70px;
+        margin-left: 260px;}
+li{ list-style: none;
+    width: 130px;
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+   padding-top: -300px;
+   margin: 0 3px; 
+   text-align: center; 
+   font-size: 20px;
+cursor: pointer;
+color: #6e6e6e;}
+a{ text-decoration: none;
+    display: block;
+    text-align: center;
+font-size: 20px;}    
+li::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 2px solid  #6e6e6e;
+        border-left: none;
+        border-right: none;
+        transform-origin: left;
+        transform: scaleX(0);
+        transition: 0.5s;}
+li:hover::after{transform: scaleX(1);}
+li:hover {
+ border-left: 1px solid  #6e6e6e;
+ border-right: 1px solid  #6e6e6e;}
+ .i1sec1 ,  .i2sec1 , .i3sec1 {
+    font-size: 20px;
+    position: absolute;
+      line-height: 30px;
+    margin-top: -40px;
+    margin-left: 1200px;}
+    .i1sec1 {
+        margin-left: 1150px;}
+    .i2sec1{
+        margin-left: 1180px;   }
+.table{
+    width: 450px;
+    height: 200px;
+    border: 2px solid #d4cdcd;
+position: absolute;
+z-index: 2;
+background-color: #ddd8d8;
+opacity: 0;
+margin-top: 20px;
+margin-left: -10px;
+text-align: center;
+opacity: 0;}
+.colum1 , .colum2 , .colum21,.colum22,.colum23,.colum3,.colum31{
+    font-size: 20px;
+    color: #797070;
+    cursor: pointer;
+} .colum2 ,.colum21,.colum22,.colum23{
+margin-left: 250px;
+}.colum2,.colum31 {margin-top: -170px;}
+.colum1{margin-left: -300px;}
+.colum3,.colum31{margin-left: -40px;}
+.divimg1{width: 1100px;
+height: 470px;
+margin: auto;
+background-image: url(../img/samoa-divano-design-componbili-con-schienali-spostabili-e-con-cuciture-a-bordino-droll.jpg);
+background-size: cover;
+margin-left: 130px;
+margin-top: -30px;
+}.h2img1{font-size: 70px;
+color: rgb(252, 251, 251);
+text-align: center;
+padding-top: 130px;}
+.btnimg{width: 140px;
+height: 50px;
+border: 0;
+background-color: #f5f0f0;
+color: rgb(148, 151, 151);
+text-align: center;
+font-size: 19px;
+margin-left: 470px;
+margin-top: -10px;
+font-weight: bold;
+border-radius: 10px;
+cursor: pointer;}
+.btnimg:hover{background-color:#aaa7a7; 
+color:#f5f0f0;}
+.h2sec1,.h2sec4{
+text-align: center;
+margin-top: 70px;
+font-size: 40px;
+}.hr1sec1,.hrsec4{ width: 100px;
+height: 4px;
+margin-top: -10px;
+background-color:#6e6e6e; 
+transition: 0.5s;}
+.hr1sec1:hover, .hrsec4:hover {width: 200px;
+transition: 0.5s;}
+.parent2{
+    width: 1100px;
+    height: 300px;
+    margin: auto;
+    margin-top: 20px;}
+.div1sec1,.div2sec1,.div3sec1,.div4sec1{
+    width: 260px;
+    height: 300px;
+    float: left;
+    background-color: #f5f0f0;
+    margin-left: 10px;
+}.div1sec1{margin-left: 15px;}
+.imgsec1{
+    width: 260px;
+    height: 220px;
+    background-size: cover; }
+.h2imsec1{color: #2e2c2c;}
+.divisec1{background-color: #6e6e6e;
+width: 30px;
+height: 30px;
+text-align: center;
+margin-left: 230px;
+opacity: 0; 
+margin-top: -50px;
+cursor: pointer;}
+.isec1{color: #f5f0f0;
+margin-top: 6px;
+font-size: 20px;}
+.div1sec1:hover .divisec1 ,.div2sec1:hover .divisec1 ,.div3sec1:hover .divisec1,.div4sec1:hover .divisec1{opacity: 1;}
+.parent3{height: 350px;
+margin-top: 50px;}
+.div1sec2{width: 530px;
+margin-left: 130px;}
+.div2sec2,.div1sec2,.div3sec2{float: left;}
+.div2sec2,.div3sec2{margin-left: 20px;
+width: 270px; 
+    height:300px ;
+    background-size: cover;
+    transition: 0.6s;}  
+    .div2sec2{background-image:url(../img/91Inj9JnM2L._AC_UF1000\,1000_QL80_.jpg);} 
+    .div3sec2{background-image: url(../img/81pVMKnl2WL._AC_UF894\,1000_QL80_.jpg);} 
+.div2sec2:hover,.div3sec2:hover{transform: scale(1.12,1.12);
+transition: 0.6s;}
+.isec2{display: inline;
+font-size: 50px;}
+.h2sec2{margin-left: 50px;
+font-size: 30px;
+margin-top: -40px;}
+.h2sec2,.isec2,.p2sec2,.p3sec2,.psec1,.h2sec1, .i1sec1 ,  .i2sec1 , .i3sec1,a,.pdiv1sec3,.isec3,.h2sec4,.hrsec4,.p1sec4{color: #6e6e6e;}
+.p2sec2{margin-left: 70px;
+margin-top: -25px;
+font-size: 22px;}
+.hr1sec2,.hr2sec2,.hr3sec2{background-color: #6e6e6e;
+width: 50px;
+height: 5px;
+border-radius: 5px;
+float: left;
+margin-left: 10px;}
+.hr1sec2{margin-left: 350px;}
+.p4sec2,.h22sec2{
+    margin-left: 50px;
+font-size: 25px;}
+.h22sec2{margin-left: 40px;}
+.div1sec3,.div2sec3,.div3sec3,.div4sec3,.div5sec3{width: 222px;
+height: 120px;
+float: left;
+border-right: 1px solid  #726f6f;
+text-align: center;
+overflow: hidden;
+position: relative;}
+.div1sec3{margin-left: 130px;}
+.div5sec3{border-right: 0;}
+.h2sec3{margin-top: 70px;}
+.isec3,.i2sec3{font-size: 35px;
+    margin-top: 20px;
+transition: 0.5s;
+position: absolute;
+margin-left: -20px;}
+.i2sec3{ position: absolute;
+    font-size: 35px;
+margin-top: 80px;
+color: #473f3f;
+opacity: 0;}
+.pdiv1sec3{margin-top: -20px;}
+.div1sec3:hover .i2sec3,.div2sec3:hover .i2sec3,.div3sec3:hover .i2sec3,.div4sec3:hover .i2sec3,.div5sec3:hover .i2sec3{
+    margin-top: -0.01px;
+    color: #866767;
+    opacity: 1;
+    transition: 0.5s;
+margin-top: 20px;}
+    .div1sec3:hover .isec3,.div2sec3:hover .isec3,.div3sec3:hover .isec3,.div4sec3:hover .isec3,.div5sec3:hover .isec3{
+transition: 0.5s;
+margin-top: -50px;
+}.hr2sec3{margin-top: 170px;
+ width: 1120px;
+ margin-left: 130px;}
+.p1sec4{text-align: center;
+word-spacing: 25px;
+font-size: 20px;}
+.parent5{width: 100vw;
+    height: 650px;}
+ .divpar5,.div1par5{
+        float: left;
+        width: 370px;
+        height: 450px;
+        margin-left: 30px;
+        margin-top: 20px;
+        position: relative;
+        transition: 0.6s;
+        transform-style: preserve-3d;
+    }.divpar5{margin-left: 90px;}
+.front1,.back1,.front2,.back2,.front3,.back3,.front4,.back4,.front5,.back5,.front6,.back6{
+    width: 370px;
+    height: 450px;
+    background-color: #bdbbbb;
+    position: absolute;
+    background-size: cover;
+}.front1,.front2,.front3,.front4,.front5,.front6,.front7{
+    z-index: 1;
+    backface-visibility: hidden;
+background-color: #866767;}
+.back1,.back2,.back3,.back4,.back5,.back6{transform: rotateY(180deg);}
+    .divpar5:hover,.div1par5:hover{
+        transform: rotateY(180deg);}
+        .ipar5{margin-top: 40px;
+            color: rgb(242, 250, 132);
+        }.star,.star1{float: left;
+        margin-top: -20px;
+height: 250px;
+margin-left: 320px;}
+.star1{margin-left: 80px;}
+.overlay{position: absolute;
+width: 100%;
+height: 100%;
+text-align: center;
+background-color: rgba(204, 202, 202, 0.4)}
+.ioverlay{font-size: 40px;
+    color: #5c5757;
+    margin-left: 10px;
+    margin-top: 50%;
+cursor: pointer;}
+    .front1,.back1{background-image: url(../img/163910791-162444191-HMBX22022020_017-2100\ \(1\).webp);}
+    .front2,.back2{background-image: url(../img/172515368636424_0-scaled.jpg);}
+    .front3,.back3{background-image: url(../img/91Inj9JnM2L._AC_UF1000\,1000_QL80_.jpg);}
+    .front4,.back4{background-image: url(../img/O1CN01KwaE8X2LrGTPZdJxY__2207546139745-0-cib.webp);}
+    .front5,.back5{background-image: url(../img/8b96f67285eda64942f611f1bdbe216f.jpg);}
+    .front6,.back6{background-image: url(../img/Snapseed_3024x.webp);}
+    .h2divpar5{margin-top: -10px;}
+    .li1:hover .table{opacity: 1;}
